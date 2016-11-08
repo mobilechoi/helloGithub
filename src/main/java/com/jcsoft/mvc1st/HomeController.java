@@ -34,6 +34,7 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 //		model.addAttribute("serverTime", date );
 		logger.info("Servertime is {} : {}.", formattedDate, Locale.KOREAN );
+		logger.info("Servertime is {} : {}.", formattedDate, Locale.ENGLISH );
 		
 		return "home";
 	}
